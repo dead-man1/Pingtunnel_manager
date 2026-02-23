@@ -13,13 +13,13 @@ UNIT_PATH = Path("/etc/systemd/system") / SYSTEMD_UNIT
 PID_FILE = Path("/run/pingtunnel.pid")
 
 URLS = {
-    "x86_64": "https://github.com/esrrhs/pingtunnel/releases/download/2.8/pingtunnel_linux_amd64.zip",
-    "amd64":  "https://github.com/esrrhs/pingtunnel/releases/download/2.8/pingtunnel_linux_amd64.zip",
-    "amd":    "https://github.com/esrrhs/pingtunnel/releases/download/2.8/pingtunnel_linux_arm.zip",
-    "aarch64":"https://github.com/esrrhs/pingtunnel/releases/download/2.8/pingtunnel_linux_arm64.zip",
-    "arm64":  "https://github.com/esrrhs/pingtunnel/releases/download/2.8/pingtunnel_linux_arm64.zip",
-    "i386":   "https://github.com/esrrhs/pingtunnel/releases/download/2.8/pingtunnel_linux_386.zip",
-    "i686":   "https://github.com/esrrhs/pingtunnel/releases/download/2.8/pingtunnel_linux_386.zip",
+    "x86_64": "https://github.com/esrrhs/pingtunnel/releases/latest/download/pingtunnel_linux_amd64.zip",
+    "amd64":  "https://github.com/esrrhs/pingtunnel/releases/latest/download/pingtunnel_linux_amd64.zip",
+    "amd":    "https://github.com/esrrhs/pingtunnel/releases/latest/download/pingtunnel_linux_arm.zip",
+    "aarch64":"https://github.com/esrrhs/pingtunnel/releases/latest/download/pingtunnel_linux_arm64.zip",
+    "arm64":  "https://github.com/esrrhs/pingtunnel/releases/latest/download/pingtunnel_linux_arm64.zip",
+    "i386":   "https://github.com/esrrhs/pingtunnel/releases/latest/download/pingtunnel_linux_386.zip",
+    "i686":   "https://github.com/esrrhs/pingtunnel/releases/latest/download/pingtunnel_linux_386.zip",
 }
 
 def clear():
